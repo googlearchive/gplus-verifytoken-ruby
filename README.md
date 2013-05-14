@@ -1,14 +1,13 @@
 # Google+ Ruby Token Verification
-This sample shows how to verify ID Tokens and Access Tokens sent to your
-server. 
+This sample shows how to verify ID tokens and access tokens that are sent to
+your server.
 
 ## Don't use this, and use the one-time code exchange instead
-Before using this technique, consider using the one-time code flow
-for getting authorization and authentication information to your server.
-The one-time code flow is the best way to send authorization information
-from a client application to your server, but it is not available in all
-situations. The server-side Quickstarts at
-https://developers.google.com/+/quickstart/ all use the one-time code flow.
+This technique has potential problems. If possible, you should use the
+one-time-code flow for enabling your server to have offline access to
+the Google APIs on behalf of the user.
+The server-side Quickstarts at
+https://developers.google.com/+/quickstart/ all use the one-time-code flow.
 
 ## Good use cases
 * Send ID Token with requests that need to be authenticated.
