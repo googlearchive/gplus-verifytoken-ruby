@@ -33,7 +33,7 @@ use Rack::Session::Pool, :expire_after => 86400 # 1 day
 
 # Configuration that you probably don't have to change
 APPLICATION_NAME = 'Google+ Ruby Token Verification'
-set :port, 1234 
+set :port, 4567
 
 # Build the global client
 credentials = Google::APIClient::ClientSecrets.load
